@@ -1,0 +1,85 @@
+body{
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: black;
+    border-radius: 50px;
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    flex: 1;
+    padding: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 20px;
+}   
+
+
+
+
+article{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section.Discount{
+    background-image: url("CMS/black texture.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+section.Discount h1, section.Discount p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
